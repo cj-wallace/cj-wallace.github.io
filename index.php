@@ -3,11 +3,11 @@
 
 <head>
     <title>Home - Connor Wallace</title>
-    <?php require("/include/head.php"); ?>
+    <?php include("/include/head.php"); ?>
 </head>
 
 <body>
-    <?php require("/include/nav.php"); ?>
+    <?php include("/include/nav.php"); ?>
     <main class="page landing-page">
         <section class="portfolio-block block-intro">
             <div class="container">
@@ -69,8 +69,8 @@
             </div>
         </section>
     </main>
-    <?php require("/include/footer.php"); ?>
-    <?php require("/include/script.php"); ?>
+    <?php include("/include/footer.php"); ?>
+    <?php include("/include/script.php"); ?>
 </body>
 
 </html>
