@@ -2,36 +2,13 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Connor Wallace</title>
-    <meta property="og:type" content="website">
-    <meta name="description" content="Connor Wallace Personal Website">
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="/assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="/assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="/assets/fonts/material-icons.min.css">
-    <link rel="stylesheet" href="/assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
-    <link rel="stylesheet" href="/assets/css/untitled.css">
+    <?php require("/include/head.php"); ?>
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="#">Connor Wallace</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="/index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="/projects.html">Projects</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="/about.html">About Me</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <main class="page lanidng-page">
+    <?php require("/include/nav.php"); ?>
+    <main class="page landing-page">
         <section class="portfolio-block block-intro">
             <div class="container">
                 <div class="avatar" style="background-image:url(&quot;/assets/img/profile/profile.jpg&quot;);"></div>
@@ -92,16 +69,8 @@
             </div>
         </section>
     </main>
-    <footer class="page-footer">
-        <div class="container">
-            <div class="links"><a href="#">About Me</a><a href="/projects.html">Projects</a></div>
-            <div class="social-icons"><a href="https://www.linkedin.com/in/connorjwallace"><i class="icon ion-social-linkedin"></i></a><a href="https://github.com/cj-wallace"><i class="icon ion-social-github"></i></a><a href="mailto:connorjwallace@outlook.com"><i class="icon ion-android-mail"></i></a></div>
-        </div>
-    </footer>
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="/assets/js/theme.js"></script>
+    <?php require("/include/footer.php"); ?>
+    <?php require("/include/script.php"); ?>
 </body>
 
 </html>

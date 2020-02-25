@@ -24,9 +24,9 @@
             <div class="collapse navbar-collapse"
                 id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/index.php">Home</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="/projects.html">Projects</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="/about.html">About Me</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/about.php">About Me</a></li>
                 </ul>
             </div>
         </div>

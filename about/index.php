@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>CV - Connor Wallace</title>
     <meta property="og:type" content="website">
     <meta name="description" content="Connor Wallace Personal Website">
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
@@ -16,6 +15,7 @@
     <link rel="stylesheet" href="/assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="/assets/css/untitled.css">
+    <title>CV - Connor Wallace</title>
 </head>
 
 <body>
@@ -24,9 +24,9 @@
             <div class="collapse navbar-collapse"
                 id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="/index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="/projects.html">Projects</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="/about.html">About Me</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/index">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/projects">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="/about">About Me</a></li>
                 </ul>
             </div>
         </div>
@@ -37,7 +37,7 @@
                 <div class="avatar" style="background-image:url(&quot;/assets/img/profile/profile.jpg&quot;);"></div>
                 <div class="about-me">
                     <p>Hello! I am&nbsp;<strong>Connor Wallace</strong>. I am a soon to be Computer Science graduate from James Madison University. I am actively looking for careers in &nbsp;Software Development. Read more about me below!<br></p><a class="btn btn-outline-primary"
-                        role="button" href="#">Download Resume as PDF</a></div>
+                        role="button" href="/assets/file/resume.pdf" download="Connor Wallace Resume">Download Resume as PDF</a></div>
             </div>
         </section>
         <section class="portfolio-block cv">
