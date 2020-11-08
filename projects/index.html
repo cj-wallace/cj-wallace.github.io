@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="/assets/css/custom.css">
+    <link rel="stylesheet" href="/assets/css/modal.css">
     <link rel="icon" href="/assets/img/icon/favicon.ico" type="image/x-icon" />
     <title>Projects - Connor Wallace</title>
 </head>
@@ -31,6 +32,55 @@
             </div>
         </div>
     </nav>
+	<!-- The Modal -->
+	<div id="modal" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+			<div class="modal-header">
+				<h2>Project Name</h2>
+				<span class="close">&times;</span>
+			</div>
+			<div class="modal-body">
+				<div class="portfolio-block project container">
+					<div class="image" style="background-image:url('/assets/img/image4.jpg');"></div>
+					<div class="row">
+						<div class="col-12 col-md-6 offset-md-1 info">
+							<h3>Description</h3>
+							<p>Nam a ultrices mauris. Nam efficitur, lorem a vehicula interdum, ligula velit euismod lorem, vitae vehicula ligula tortor eu leo. Maecenas porttitor massa ut vestibulum euismod. Aliquam eget mi aliquam.</p>
+							<div class="d-flex justify-content-center align-items-center content"><button class="btn btn-outline-primary btn-lg" type="button">View On Github</button></div>
+						</div>
+						<div class="col-12 col-md-4 col-lg-3 offset-md-1 meta">
+							<div class="tags">
+								<span class="meta-heading">Tags</span>
+								<a>Resource</a>
+								<a>Project</a>
+								<span class="meta-heading">Date</span>
+								<span>May 25th, 2017</span>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="project-progress">
+						<h3 class="text-center">Project Progress</h3>
+						<div class="row py-3">
+							<div class="col col-md-8 offset-md-2">
+								<div class="progress">
+									<div class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">50%</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<!--<h3>Modal Footer</h3>-->
+			</div>
+		</div>
+	</div>
+	
+	
+	
     <main class="page projects-page">
         <section class="portfolio-block project-no-images">
             <div class="container">
@@ -41,43 +91,43 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
                             <h3>JMU CWC Website</h3>
-                            <h4>Full stack website for JMU Collegiate Wind Competition 2020.</h4><a class="btn btn-outline-primary btn-sm" role="button" href="/projects/jmu-cwc-2020.html">See More</a>
-                            <div class="tags"><a href="">PHP</a></div>
+                            <h4>Full stack website for JMU Collegiate Wind Competition 2020.</h4><a id="jmu-cwc-2020" class="modal-button btn btn-outline-primary btn-sm" role="button" >See More</a>
+                            <div class="tags"><a>PHP</a></div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
                             <h3>HackAttack</h3>
-                            <h4>Python multiplayer hacking simulation game.</h4><a class="btn btn-outline-primary btn-sm" role="button" href="/projects/hackattack.html">See More</a>
-                            <div class="tags"><a href="">Python</a></div>
+                            <h4>Python multiplayer hacking simulation game.</h4><a id="hackattack" class="modal-button btn btn-outline-primary btn-sm" role="button" >See More</a>
+                            <div class="tags"><a>Python</a></div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
                             <h3>TA Scheduler</h3>
-                            <h4>Full stack web application that develops and tracks schedules for Teaching Assistants.</h4><a class="btn btn-outline-primary btn-sm" role="button" href="/projects/ta-scheduler.html">See More</a>
-                            <div class="tags"><a href="">PHP</a></div>
+                            <h4>Full stack web application that develops and tracks schedules for Teaching Assistants.</h4><a  id="ta-scheduler" class="modal-button btn btn-outline-primary btn-sm" role="button" >See More</a>
+                            <div class="tags"><a>PHP</a></div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
                             <h3>JMU Duke BN App</h3>
-                            <h4>Website for JMU Army ROTC group that tracks members and keeps the group updated.</h4><a class="btn btn-outline-primary btn-sm" role="button" href="/projects/dukebn-app.html">See More</a>
-                            <div class="tags"><a href="#">AngularJS</a></div>
+                            <h4>Website for JMU Army ROTC group that tracks members and keeps the group updated.</h4><a  id="dukebn-app" class="modal-button btn btn-outline-primary btn-sm" role="button">See More</a>
+                            <div class="tags"><a>AngularJS</a></div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
                             <h3>Helios 1</h3>
-                            <h4>2D Side scrolling game that involves different levels and hazards.</h4><a class="btn btn-outline-primary btn-sm" role="button" href="/projects/helios-1.html">See More</a>
-                            <div class="tags"><a href="">Processing</a></div>
+                            <h4>2D Side scrolling game that involves different levels and hazards.</h4><a  id="helios-1" class="modal-button btn btn-outline-primary btn-sm" role="button" >See More</a>
+                            <div class="tags"><a>Processing</a></div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
                             <h3>2048 Java</h3>
-                            <h4>Java based 2048 game.</h4><a class="btn btn-outline-primary btn-sm" role="button" href="/projects/2048-java.html">See More</a>
-                            <div class="tags"><a href="">Java</a></div>
+                            <h4>Java based 2048 game.</h4><a  id="2048-java" class="modal-button btn btn-outline-primary btn-sm" role="button" >See More</a>
+                            <div class="tags"><a>Java</a></div>
                         </div>
                     </div>
                 </div>
@@ -98,6 +148,8 @@
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/modal.js"></script>
+	
 </body>
 
 </html>

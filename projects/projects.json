@@ -1,0 +1,91 @@
+[{
+		"name": "jmu-cwc-2020",
+		"clean-name": "JMU CWC Website",
+		"short-desc": "Full stack website for JMU Collegiate Wind Competition 2020.",
+		"desc": [
+			"description1",
+			"description paragraph2"
+		],
+		"link": "https://github.com/cj-wallace/jmu-cwc-2020",
+		"tags": [
+			"PHP"
+		],
+		"date": "May 25th, 2017",
+		"progress": 50
+	},
+	{
+		"name": "hackattack",
+		"clean-name": "HackAttack",
+		"short-desc": "Python multiplayer hacking simulation game.",
+		"desc": [
+			"description1",
+			"description paragraph2"
+		],
+		"link": "https://github.com/cj-wallace/hackattack",
+		"tags": [
+			"PYTHON"
+		],
+		"date": "Oct 18th, 2019",
+		"progress": 30
+	},
+	{
+		"name": "ta-scheduler",
+		"clean-name": "TA Scheduler",
+		"short-desc": "Full stack web application that develops and tracks schedules for Teaching Assistants.",
+		"desc": [
+			"description1",
+			"description paragraph2"
+		],
+		"link": "https://github.com/cj-wallace/ta-scheduler",
+		"tags": [
+			"PHP"
+		],
+		"date": "Jan 1st, 2020",
+		"progress": 30
+	},
+	{
+		"name": "dukebn-app",
+		"clean-name": "JMU Duke BN App",
+		"short-desc": "Website for JMU Army ROTC group that tracks members and keeps the group updated.",
+		"desc": [
+			"description1",
+			"description paragraph2"
+		],
+		"link": "https://github.com/cj-wallace/dukebn-app",
+		"tags": [
+			"ANGULARJS"
+		],
+		"date": "Jan 1st, 2020",
+		"progress": 30
+	},
+	{
+		"name": "helios-1",
+		"clean-name": "Helios 1",
+		"short-desc": "2D Side scrolling game that involves different levels and hazards.",
+		"desc": [
+			"description1",
+			"description paragraph2"
+		],
+		"link": "https://github.com/cj-wallace/helios-1",
+		"tags": [
+			"PROCESSING"
+		],
+		"date": "Jan 1st, 2020",
+		"progress": 30
+	},
+	{
+		"name": "2048-java",
+		"clean-name": "2048 Java",
+		"short-desc": "Java based 2048 game.",
+		"desc": [
+			"description1",
+			"description paragraph2"
+		],
+		"link": "https://github.com/cj-wallace/2048-java",
+		"tags": [
+			"JAVA"
+		],
+		"date": "Jan 1st, 2020",
+		"progress": 30
+	}
+]

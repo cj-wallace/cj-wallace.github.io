@@ -1,0 +1,17 @@
+{
+	"projects": [
+		{
+			"name": "jmu-cwc-2020",
+			"desc": [
+				"description1",
+				"description paragraph2"
+			],
+			"link": "https://github.com/cj-wallace/jmu-cwc-2020",
+			"tags": [
+				"Project",
+				"PHP"
+			],
+			"date": "May 25th, 2017",
+			"progress": 50
+	]
+}
