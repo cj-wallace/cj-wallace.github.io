@@ -38,25 +38,28 @@
 		<!-- Modal content -->
 		<div class="modal-content">
 			<div class="modal-header">
-				<h2>Project Name</h2>
+				<h2 id="modal-project-name">Project Name</h2>
 				<span class="close">&times;</span>
 			</div>
 			<div class="modal-body">
 				<div class="portfolio-block project container">
-					<div class="image" style="background-image:url('/assets/img/image4.jpg');"></div>
+					<div id="modal-project-image" class="image"></div>
 					<div class="row">
 						<div class="col-12 col-md-6 offset-md-1 info">
 							<h3>Description</h3>
-							<p>Nam a ultrices mauris. Nam efficitur, lorem a vehicula interdum, ligula velit euismod lorem, vitae vehicula ligula tortor eu leo. Maecenas porttitor massa ut vestibulum euismod. Aliquam eget mi aliquam.</p>
-							<div class="d-flex justify-content-center align-items-center content"><button class="btn btn-outline-primary btn-lg" type="button">View On Github</button></div>
+							<div id="modal-project-desc"></div>
+							<div class="d-flex justify-content-center align-items-center content"><a id="modal-project-link"><button class="btn btn-outline-primary btn-lg" type="button">View On Github</button></a></div>
 						</div>
 						<div class="col-12 col-md-4 col-lg-3 offset-md-1 meta">
 							<div class="tags">
 								<span class="meta-heading">Tags</span>
-								<a>Resource</a>
-								<a>Project</a>
+								<div id="modal-project-tags">
+									<a>Resource</a>
+									<br>
+									<a>Project</a>
+								</div>
 								<span class="meta-heading">Date</span>
-								<span>May 25th, 2017</span>
+								<span id="modal-project-date">May 25th, 2017</span>
 							</div>
 						</div>
 					</div>
@@ -66,7 +69,7 @@
 						<div class="row py-3">
 							<div class="col col-md-8 offset-md-2">
 								<div class="progress">
-									<div class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">50%</div>
+									<div id="modal-project-progress" class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">50%</div>
 								</div>
 							</div>
 						</div>

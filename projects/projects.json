@@ -1,7 +1,8 @@
 [{
-		"name": "jmu-cwc-2020",
-		"clean-name": "JMU CWC Website",
-		"short-desc": "Full stack website for JMU Collegiate Wind Competition 2020.",
+		"id": "jmu-cwc-2020",
+		"name": "JMU CWC Website",
+		"image": "/assets/img/image4.jpg",
+		"brief": "Full stack website for JMU Collegiate Wind Competition 2020.",
 		"desc": [
 			"description1",
 			"description paragraph2"
@@ -14,9 +15,9 @@
 		"progress": 50
 	},
 	{
-		"name": "hackattack",
-		"clean-name": "HackAttack",
-		"short-desc": "Python multiplayer hacking simulation game.",
+		"id": "hackattack",
+		"name": "HackAttack",
+		"brief": "Python multiplayer hacking simulation game.",
 		"desc": [
 			"description1",
 			"description paragraph2"
@@ -29,9 +30,10 @@
 		"progress": 30
 	},
 	{
-		"name": "ta-scheduler",
-		"clean-name": "TA Scheduler",
-		"short-desc": "Full stack web application that develops and tracks schedules for Teaching Assistants.",
+		"id": "ta-scheduler",
+		"name": "TA Scheduler",
+		"image": "/assets/img/image4.jpg",
+		"brief": "Full stack web application that develops and tracks schedules for Teaching Assistants.",
 		"desc": [
 			"description1",
 			"description paragraph2"
@@ -44,9 +46,10 @@
 		"progress": 30
 	},
 	{
-		"name": "dukebn-app",
-		"clean-name": "JMU Duke BN App",
-		"short-desc": "Website for JMU Army ROTC group that tracks members and keeps the group updated.",
+		"id": "dukebn-app",
+		"name": "JMU Duke BN App",
+		"image": "/assets/img/image4.jpg",
+		"brief": "Website for JMU Army ROTC group that tracks members and keeps the group updated.",
 		"desc": [
 			"description1",
 			"description paragraph2"
@@ -59,9 +62,10 @@
 		"progress": 30
 	},
 	{
-		"name": "helios-1",
-		"clean-name": "Helios 1",
-		"short-desc": "2D Side scrolling game that involves different levels and hazards.",
+		"id": "helios-1",
+		"name": "Helios 1",
+		"image": "/assets/img/image4.jpg",
+		"brief": "2D Side scrolling game that involves different levels and hazards.",
 		"desc": [
 			"description1",
 			"description paragraph2"
@@ -74,9 +78,10 @@
 		"progress": 30
 	},
 	{
-		"name": "2048-java",
-		"clean-name": "2048 Java",
-		"short-desc": "Java based 2048 game.",
+		"id": "2048-java",
+		"name": "2048 Java",
+		"image": "/assets/img/image4.jpg",
+		"brief": "Java based 2048 game.",
 		"desc": [
 			"description1",
 			"description paragraph2"
