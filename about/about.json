@@ -1,0 +1,58 @@
+{
+	"work": [{
+			"title": "Software Development Intern",
+			"start": "05/2017",
+			"end": "08/2109",
+			"company": "BerkleyNet",
+			"desc": "Worked on a team to develop and test software and build backend services (Java, SQL). Gained experience in team-oriented software development and business software development practices (Agile, Atlassian / Jira, Bitbucket)."
+		},
+		{
+			"title": "ROTC Battalion Communications and Network Staff",
+			"start": "01/2019",
+			"end": "01/2020",
+			"company": "JMU Army ROTC",
+			"desc": "Acted as the Communication and Network head in the JMU Army ROTC Battalion. Handled network troubleshooting and solved communication and technical problems."
+		}
+	],
+	"school": [{
+			"title": "BS Computer Science",
+			"start": "08/2016",
+			"end": "05/2020",
+			"school": "James Madison University",
+			"desc": "Minor in Military Leadership. Participated in Army ROTC for 4 years."
+		},
+		{
+			"title": "High School",
+			"start": "08/2012",
+			"end": "06/2016",
+			"school": "Forest Park Senior High School",
+			"desc": "Graduated with an advanced diploma. Participated in Computer Science program for 4 years."
+		}
+	],
+	"skills": [{
+			"name": "Java",
+			"score": 90
+		},
+		{
+			"name": "SQL",
+			"score": 80
+		},
+		{
+			"name": "Python",
+			"score": 75
+		},
+		{
+			"name": "PHP",
+			"score": 60
+		}
+	],
+	"contact": {
+		"name": "Connor Wallace",
+		"date": "05/14/1998",
+		"location": "Woodbridge, Virginia",
+		"email": "connorjwallace@outlook.com"
+	},
+	"hobbies": [
+		"I am very interested in learning about all forms of development and or computer networking. Some of my personal projects have included personal servers, web apps, computer games, apps, as well as this website."
+	]
+}
