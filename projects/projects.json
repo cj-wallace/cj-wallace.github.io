@@ -1,7 +1,6 @@
 [{
 		"id": "jmu-cwc-2020",
 		"name": "JMU CWC Website",
-		"image": "/assets/img/image4.jpg",
 		"brief": "Full stack website for JMU Collegiate Wind Competition 2020.",
 		"desc": [
 			"description1",
@@ -33,7 +32,6 @@
 	{
 		"id": "ta-scheduler",
 		"name": "TA Scheduler",
-		"image": "/assets/img/image4.jpg",
 		"brief": "Full stack web application that develops and tracks schedules for Teaching Assistants.",
 		"desc": [
 			"description1",
@@ -49,7 +47,6 @@
 	{
 		"id": "dukebn-app",
 		"name": "JMU Duke BN App",
-		"image": "/assets/img/image4.jpg",
 		"brief": "Website for JMU Army ROTC group that tracks members and keeps the group updated.",
 		"desc": [
 			"description1",
@@ -65,7 +62,6 @@
 	{
 		"id": "helios-1",
 		"name": "Helios 1",
-		"image": "/assets/img/image4.jpg",
 		"brief": "2D Side scrolling game that involves different levels and hazards.",
 		"desc": [
 			"description1",
@@ -81,7 +77,6 @@
 	{
 		"id": "2048-java",
 		"name": "2048 Java",
-		"image": "/assets/img/image4.jpg",
 		"brief": "Java based 2048 game.",
 		"desc": [
 			"description1",
