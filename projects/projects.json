@@ -1,7 +1,7 @@
 [{
 		"id": "jmu-cwc-2020",
 		"name": "JMU CWC Website",
-		"image": "/assets/img/image1.jpg",
+		"image": "/assets/img/project/jmu-cwc-2020.jpg",
 		"brief": "Full stack website for JMU Collegiate Wind Competition 2020.",
 		"desc": [
 			"This web app was created as a part of the Collegiate Wind Competition 2020. Our team, James Madison University, took first place in the competition in June 2020. I was able to provide support to the team by designing and building the web app we used for social media and outreach.",
