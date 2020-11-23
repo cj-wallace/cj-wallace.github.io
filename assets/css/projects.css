@@ -33,6 +33,12 @@ a.modal-button {
   animation-duration: 0.4s
 }
 
+@media screen and (min-width: 1200px) {
+  .modal-content {
+    width: 60%;
+  }
+}
+
 /* Add Animation */
 @-webkit-keyframes animatetop {
   from {top:-300px; opacity:0} 
@@ -65,7 +71,9 @@ a.modal-button {
   color: white;
 }
 
-.modal-body {padding: 2px 5px;}
+.modal-body {
+  padding: 2px 5px;
+}
 
 .modal-footer {
   padding: 2px 16px;
