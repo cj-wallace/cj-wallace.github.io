@@ -90,7 +90,7 @@ function buildContact(jsonObject){
 	locationDiv.innerHTML = '<span>' + jsonObject.location + '</span>';
 	
 	var emailDiv = document.getElementById("about-email");
-	emailDiv.innerHTML = '<span>' + jsonObject.email +'</span>';
+	emailDiv.innerHTML = '<a href="mailto:' + jsonObject.email + '"><span>' + jsonObject.email +'</span></a>';
 }
 
 function buildHobbies(jsonObject){
