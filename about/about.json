@@ -1,10 +1,17 @@
 {
 	"work": [{
 			"title": "Software Engineer",
-			"start": "05/2020",
+			"start": "09/2021",
 			"end": "Present",
-			"company": "General Dynamics - Mission Systems",
+			"company": "Microsoft",
 			"desc": ""
+		},
+		{
+			"title": "Software Engineer",
+			"start": "05/2020",
+			"end": "09/2021",
+			"company": "General Dynamics - Mission Systems",
+			"desc": "Headed programming projects for team that maintains, develops, and integrates virtual machines and hardware for our customer. Developed GUI and backend for managing virtual machines and network/hardware (Python, C++). Led a full software conversion of virtual machine manager from CentOS 6 to 7, including reworking of backend."
 		},
 		{
 			"title": "Software Development Intern",
