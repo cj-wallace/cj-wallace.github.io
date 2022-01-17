@@ -33,6 +33,7 @@
 	{
 		"id": "ta-scheduler",
 		"name": "TA Scheduler",
+		"image": "/assets/img/project/ta-scheduler.png",
 		"brief": "Full stack web application that develops and tracks schedules for Teaching Assistants.",
 		"desc": [
 			"This is a full stack web application that I worked on with a team of other students as a part of my Web Development course.",
@@ -65,6 +66,7 @@
 	{
 		"id": "helios-1",
 		"name": "Helios 1",
+		"image": "/assets/img/project/helios-1.png",
 		"brief": "2D Side scrolling game that involves different levels and hazards.",
 		"desc": [
 			"This is a game I created using Processing, a javascript like implementation that is designed for game coding. It was a final project for my computer science program in high school, and I am proud with the work I put into it.",
@@ -81,6 +83,7 @@
 	{
 		"id": "2048-java",
 		"name": "2048 Java",
+		"image": "/assets/img/project/2048-java.png",
 		"brief": "Java based 2048 game.",
 		"desc": [
 			"This was a simple game I made that clones the popular mobile app, 2048, using a Java implementation."
