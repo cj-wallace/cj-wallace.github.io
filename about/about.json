@@ -1,10 +1,11 @@
 {
-	"work": [{
-			"title": "Software Engineer",
+	"work": [
+		{
+			"title": "Software Engineer I-II",
 			"start": "09/2021",
 			"end": "Present",
 			"company": "Microsoft",
-			"desc": ""
+			"desc": "Contributed to the Azure Security team to deliver security services and products to tailored cloud environments."
 		},
 		{
 			"title": "Software Engineer",
@@ -28,12 +29,13 @@
 			"desc": "Acted as the Communication and Network head in the JMU Army ROTC Battalion. Handled network troubleshooting and solved communication and technical problems."
 		}
 	],
-	"school": [{
+	"school": [
+		{
 			"title": "BS Computer Science",
 			"start": "08/2016",
 			"end": "05/2020",
 			"school": "James Madison University",
-			"desc": "Minor in Military Leadership. Participated in Army ROTC for 4 years."
+			"desc": "Minor in Military Leadership. Led the ROTC cyber defense club and participated on the engineering team for the 2020 Collegiate Wind Conference."
 		},
 		{
 			"title": "High School",
@@ -43,12 +45,17 @@
 			"desc": "Graduated with an advanced diploma. Participated in Computer Science program for 4 years."
 		}
 	],
-	"skills": [{
-			"name": "Java",
+	"skills": [
+		{
+			"name": "Cloud Development",
 			"score": 90
 		},
 		{
-			"name": "SQL",
+			"name": "Linux/Ubuntu",
+			"score": 80
+		},
+		{
+			"name": "Containerized Development",
 			"score": 80
 		},
 		{
@@ -56,7 +63,7 @@
 			"score": 75
 		},
 		{
-			"name": "PHP",
+			"name": "Java",
 			"score": 60
 		}
 	],
@@ -67,6 +74,6 @@
 		"email": "connorjwallace@outlook.com"
 	},
 	"hobbies": [
-		"I am very interested in learning about all forms of development and or computer networking. Some of my personal projects have included personal servers, web apps, computer games, android apps, and also this website!"
+		"I am very interested in learning about all forms of software development and computer networking. Some of my personal projects have included personal servers, web apps, computer games, android apps, and also this website!"
 	]
 }
