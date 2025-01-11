@@ -6,7 +6,11 @@
 			"end": "Present",
 			"entity": "Microsoft",
 			"desc": [
-				"Contributed to the Azure Security team to deliver security services and products to tailored cloud environments."
+				"Contributed to the Azure Security team to deliver security services and products to tailored cloud environments.",
+				"Design and implement automated deployment pipelines to address buildout dependencies and meet customer needs.",
+				"Developed tools to streamline onboarding of virtual machine certificates and networking in unique environments.",
+				"Manage distributed virtual machines in multiple regions, ensuring reliable security updates and patch deployments.",
+				"Provide support for customer-facing services, including on-call rotations to ensure high availability and reliability."
 			]
 		},
 		{
@@ -15,7 +19,7 @@
 			"end": "09/2021",
 			"entity": "General Dynamics - Mission Systems",
 			"desc": [
-				"Headed programming projects for team that maintains, develops, and integrates virtual machines and hardware for our customer.",
+				"Headed programming projects for team that maintains, develops, and integrates virtual machines and hardware.",
 				"Developed GUI and backend for managing virtual machines and network/hardware (Python, C++).",
 				"Led a full software conversion of virtual machine manager from CentOS 6 to 7, including reworking of backend."
 			]
