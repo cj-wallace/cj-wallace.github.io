@@ -4,29 +4,40 @@
 			"title": "Software Engineer I-II",
 			"start": "09/2021",
 			"end": "Present",
-			"company": "Microsoft",
-			"desc": "Contributed to the Azure Security team to deliver security services and products to tailored cloud environments."
+			"entity": "Microsoft",
+			"desc": [
+				"Contributed to the Azure Security team to deliver security services and products to tailored cloud environments."
+			]
 		},
 		{
 			"title": "Software Engineer",
 			"start": "05/2020",
 			"end": "09/2021",
-			"company": "General Dynamics - Mission Systems",
-			"desc": "Headed programming projects for team that maintains, develops, and integrates virtual machines and hardware for our customer. Developed GUI and backend for managing virtual machines and network/hardware (Python, C++). Led a full software conversion of virtual machine manager from CentOS 6 to 7, including reworking of backend."
+			"entity": "General Dynamics - Mission Systems",
+			"desc": [
+				"Headed programming projects for team that maintains, develops, and integrates virtual machines and hardware for our customer.",
+				"Developed GUI and backend for managing virtual machines and network/hardware (Python, C++).",
+				"Led a full software conversion of virtual machine manager from CentOS 6 to 7, including reworking of backend."
+			]
 		},
 		{
 			"title": "Software Development Intern",
 			"start": "05/2017",
 			"end": "08/2019",
-			"company": "BerkleyNet",
-			"desc": "Worked on a team to develop and test software and build backend services (Java, SQL). Gained experience in team-oriented software development and business software development practices (Agile, Atlassian / Jira, Bitbucket)."
+			"entity": "BerkleyNet",
+			"desc": [
+				"Worked on a team to develop and test software and build backend services (Java, SQL).",
+				"Gained experience in team-oriented software development and business software development practices (Agile, Atlassian / Jira, Bitbucket)."
+			]
 		},
 		{
 			"title": "ROTC Battalion Communications and Network Staff",
 			"start": "01/2019",
 			"end": "01/2020",
-			"company": "JMU Army ROTC",
-			"desc": "Acted as the Communication and Network head in the JMU Army ROTC Battalion. Handled network troubleshooting and solved communication and technical problems."
+			"entity": "JMU Army ROTC",
+			"desc": [
+				"Acted as the Communication and Network head in the JMU Army ROTC Battalion.",
+				"Handled network troubleshooting and solved communication and technical problems."]
 		}
 	],
 	"school": [
@@ -34,14 +45,14 @@
 			"title": "BS Computer Science",
 			"start": "08/2016",
 			"end": "05/2020",
-			"school": "James Madison University",
+			"entity": "James Madison University",
 			"desc": "Led the ROTC Cyber Defense club. 2020 Collegiate Wind Conference engineering team."
 		},
 		{
 			"title": "High School",
 			"start": "08/2012",
 			"end": "06/2016",
-			"school": "Forest Park Senior High School",
+			"entity": "Forest Park Senior High School",
 			"desc": "Graduated with an advanced diploma. Participated in Computer Science program for 4 years."
 		}
 	],

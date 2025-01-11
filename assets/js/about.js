@@ -2,10 +2,10 @@ const jsonFileName = "/about/about.json";
 
 var jsonObject = buildJSON(jsonFileName);
 
-console.log(jsonObject.contact);
-
-buildWork(jsonObject.work);
-buildSchool(jsonObject.school);
+buildAbout(jsonObject.work, "about-work");
+buildAbout(jsonObject.school, "about-school");
+//buildWork(jsonObject.work);
+//buildSchool(jsonObject.school);
 buildSkills(jsonObject.skills);
 buildContact(jsonObject.contact);
 buildHobbies(jsonObject.hobbies);
@@ -21,31 +21,8 @@ function buildJSON(jsonFilePath){
 	return jsonObject;
 }
 
-function buildWork(jsonObject){
-	
-	var workDiv = document.getElementById("about-work");
-	
-	for(var i = 0; i < jsonObject.length; i++){		
-		var innerHTML = "";
-		
-		innerHTML += '<div class="item">';
-		innerHTML += '<div class="row">';
-		innerHTML += '<div class="col-md-6">';
-		innerHTML += '<h3>' + jsonObject[i].title + '</h3>';
-		innerHTML += '<h4 class="organization">' + jsonObject[i].company + '</h4>';
-		innerHTML += '</div>';
-		innerHTML += '<div class="col-md-6"><span class="period">' + jsonObject[i].start + '-' + jsonObject[i].end + '</span></div>';
-		innerHTML += '</div>';
-		innerHTML += '<p class="text-muted">' + jsonObject[i].desc + '</p>';
-		innerHTML += '</div>';
-
-		workDiv.innerHTML += innerHTML;
-	}
-}
-
-function buildSchool(jsonObject){
-	
-	var schoolDiv = document.getElementById("about-school");
+function buildAbout(jsonObject, divId){
+	var div = document.getElementById(divId);
 	
 	for(var i = 0; i < jsonObject.length; i++){		
 		var innerHTML = "";
@@ -54,14 +31,23 @@ function buildSchool(jsonObject){
 		innerHTML += '<div class="row">';
 		innerHTML += '<div class="col-md-6">';
 		innerHTML += '<h3>' + jsonObject[i].title + '</h3>';
-		innerHTML += '<h4 class="organization">' + jsonObject[i].school + '</h4>';
+		innerHTML += '<h4 class="organization">' + jsonObject[i].entity + '</h4>';
 		innerHTML += '</div>';
 		innerHTML += '<div class="col-md-6"><span class="period">' + jsonObject[i].start + '-' + jsonObject[i].end + '</span></div>';
 		innerHTML += '</div>';
-		innerHTML += '<p class="text-muted">' + jsonObject[i].desc + '</p>';
+		innerHTML += '<ul class="text-muted list-unstyled">';
+		if(Array.isArray(jsonObject[i].desc)){
+			for(var j = 0; j < jsonObject[i].desc.length; j++){
+				innerHTML += '<li>' + jsonObject[i].desc[j] + '</li>';
+			}
+		}
+		else{
+			innerHTML += '<li>' + jsonObject[i].desc + '</li>';
+		}
+		innerHTML += '</ul>';
 		innerHTML += '</div>';
 
-		schoolDiv.innerHTML += innerHTML;
+		div.innerHTML += innerHTML;
 	}
 }
 
