@@ -1,99 +1,118 @@
 [{
-		"id": "jmu-cwc-2020",
-		"name": "JMU CWC Website",
-		"image": "/assets/img/project/jmu-cwc-2020.jpg",
-		"brief": "Full stack website for JMU Collegiate Wind Competition 2020.",
-		"desc": [
-			"This web app was created as a part of the Collegiate Wind Competition 2020. Our team, James Madison University, took first place in the competition in June 2020. I was able to provide support to the team by designing and building the web app we used for social media and outreach.",
-			"This app uses mainly PHP, and the front end is created using bootstrap. It is not currently hosted as the competition has since ended."
-		],
-		"link": "https://github.com/cj-wallace/jmu-cwc-2020",
-		"tags": [
-			"PHP",
-			"WEB"
-		],
-		"date": "May 2020",
-		"progress": 70
-	},
-	{
-		"id": "hackattack",
-		"name": "HackAttack",
-		"brief": "Python multiplayer hacking simulation game.",
-		"desc": [
-			"This is a command line interfaced Python app that I created while as head of the James Madison University Cyber Security Leadership team. I created this in order to demonstrate linux and networking, as well as simulate 'hacking' in a learning environment to students who do not have as much of an experience in Computer Science.",
-			"The game uses Python, and is intended to be run on a Linux server - such as a Raspberry Pi."
-		],
-		"link": "https://github.com/cj-wallace/hackattack",
-		"tags": [
-			"PYTHON"
-		],
-		"date": "October 2019",
-		"progress": 30
-	},
-	{
-		"id": "ta-scheduler",
-		"name": "TA Scheduler",
-		"image": "/assets/img/project/ta-scheduler.png",
-		"brief": "Full stack web application that develops and tracks schedules for Teaching Assistants.",
-		"desc": [
-			"This is a full stack web application that I worked on with a team of other students as a part of my Web Development course.",
-			"In this project, I focused on the PHP implementation, as well as the calendar integration."
-		],
-		"link": "https://github.com/cj-wallace/ta-scheduler",
-		"tags": [
-			"PHP",
-			"WEB"
-		],
-		"date": "December 2019",
-		"progress": 100
-	},
-	{
-		"id": "dukebn-app",
-		"name": "JMU Duke BN App",
-		"brief": "Website for JMU Army ROTC group that tracks members and keeps the group updated.",
-		"desc": [
-			"This is a project that I initially started in order to facilitate tasks in my Army ROTC Battalion at JMU.",
-			"The project was very helpful in teaching me web application concepts and gave me a lot of experience in solo development.",
-			"Although I did not complete the project on my own, I was able to pass my work to another student who is currently working on it now."
-		],
-		"link": "https://github.com/cj-wallace/dukebn-app",
-		"tags": [
-			"ANGULARJS"
-		],
-		"date": "Jan 1st, 2019",
-		"progress": 30
-	},
-	{
-		"id": "helios-1",
-		"name": "Helios 1",
-		"image": "/assets/img/project/helios-1.png",
-		"brief": "2D Side scrolling game that involves different levels and hazards.",
-		"desc": [
-			"This is a game I created using Processing, a javascript like implementation that is designed for game coding. It was a final project for my computer science program in high school, and I am proud with the work I put into it.",
-			"The game takes the player through various levels, as they pilot a ship through sidescrolling 2d space. They must steer around obstacles, and use powerups to disable enemies, while collecting credits and upgrading their ship."
-		],
-		"link": "https://github.com/cj-wallace/helios-1",
-		"tags": [
-			"PROCESSING",
-			"GAME"
-		],
-		"date": "April 2016",
-		"progress": 95
-	},
-	{
-		"id": "2048-java",
-		"name": "2048 Java",
-		"image": "/assets/img/project/2048-java.png",
-		"brief": "Java based 2048 game.",
-		"desc": [
-			"This was a simple game I made that clones the popular mobile app, 2048, using a Java implementation."
-		],
-		"link": "https://github.com/cj-wallace/2048-java",
-		"tags": [
-			"JAVA",
-			"GAME"
-		],
-		"date": "December 2017",
-		"progress": 100
-	}
+	"id": "risktheodds",
+	"name": "RiskTheOdds Game",
+	"image": "/assets/img/project/risktheodds.png",
+	"brief": "Full stack web-based game built in Flask.",
+	"desc": [
+		"This web app game build in Flask. It aims to be a fun web game that can be picked up and put down whenever!",
+		"The app is built as a full-stack web app so that there is integration with a server-side leaderboard that updates when users submit their high scores.",
+		"The tools used include Python, Flask, SQLite, Django, and Jinja."
+	],
+	"link": "https://github.com/cj-wallace/risktheodds",
+	"tags": [
+		"WEB",
+		"PYTHON",
+		"FLASK"
+	],
+	"date": "Jan 2025",
+	"progress": 90
+},
+{
+	"id": "jmu-cwc-2020",
+	"name": "JMU CWC Website",
+	"image": "/assets/img/project/jmu-cwc-2020.jpg",
+	"brief": "Full stack website for JMU Collegiate Wind Competition 2020.",
+	"desc": [
+		"This web app was created as a part of the Collegiate Wind Competition 2020. Our team, James Madison University, took first place in the competition in June 2020. I was able to provide support to the team by designing and building the web app we used for social media and outreach.",
+		"This app uses mainly PHP, and the front end is created using bootstrap. It is not currently hosted as the competition has since ended."
+	],
+	"link": "https://github.com/cj-wallace/jmu-cwc-2020",
+	"tags": [
+		"PHP",
+		"WEB"
+	],
+	"date": "May 2020",
+	"progress": 70
+},
+{
+	"id": "hackattack",
+	"name": "HackAttack",
+	"brief": "Python multiplayer hacking simulation game.",
+	"desc": [
+		"This is a command line interfaced Python app that I created while as head of the James Madison University Cyber Security Leadership team. I created this in order to demonstrate linux and networking, as well as simulate 'hacking' in a learning environment to students who do not have as much of an experience in Computer Science.",
+		"The game uses Python, and is intended to be run on a Linux server - such as a Raspberry Pi."
+	],
+	"link": "https://github.com/cj-wallace/hackattack",
+	"tags": [
+		"PYTHON"
+	],
+	"date": "October 2019",
+	"progress": 30
+},
+{
+	"id": "ta-scheduler",
+	"name": "TA Scheduler",
+	"image": "/assets/img/project/ta-scheduler.png",
+	"brief": "Full stack web application that develops and tracks schedules for Teaching Assistants.",
+	"desc": [
+		"This is a full stack web application that I worked on with a team of other students as a part of my Web Development course.",
+		"In this project, I focused on the PHP implementation, as well as the calendar integration."
+	],
+	"link": "https://github.com/cj-wallace/ta-scheduler",
+	"tags": [
+		"PHP",
+		"WEB"
+	],
+	"date": "December 2019",
+	"progress": 100
+},
+{
+	"id": "dukebn-app",
+	"name": "JMU Duke BN App",
+	"brief": "Website for JMU Army ROTC group that tracks members and keeps the group updated.",
+	"desc": [
+		"This is a project that I initially started in order to facilitate tasks in my Army ROTC Battalion at JMU.",
+		"The project was very helpful in teaching me web application concepts and gave me a lot of experience in solo development.",
+		"Although I did not complete the project on my own, I was able to pass my work to another student who is currently working on it now."
+	],
+	"link": "https://github.com/cj-wallace/dukebn-app",
+	"tags": [
+		"ANGULARJS"
+	],
+	"date": "Jan 1st, 2019",
+	"progress": 30
+},
+{
+	"id": "helios-1",
+	"name": "Helios 1",
+	"image": "/assets/img/project/helios-1.png",
+	"brief": "2D Side scrolling game that involves different levels and hazards.",
+	"desc": [
+		"This is a game I created using Processing, a javascript like implementation that is designed for game coding. It was a final project for my computer science program in high school, and I am proud with the work I put into it.",
+		"The game takes the player through various levels, as they pilot a ship through sidescrolling 2d space. They must steer around obstacles, and use powerups to disable enemies, while collecting credits and upgrading their ship."
+	],
+	"link": "https://github.com/cj-wallace/helios-1",
+	"tags": [
+		"PROCESSING",
+		"GAME"
+	],
+	"date": "April 2016",
+	"progress": 95
+},
+{
+	"id": "2048-java",
+	"name": "2048 Java",
+	"image": "/assets/img/project/2048-java.png",
+	"brief": "Java based 2048 game.",
+	"desc": [
+		"This was a simple game I made that clones the popular mobile app, 2048, using a Java implementation."
+	],
+	"link": "https://github.com/cj-wallace/2048-java",
+	"tags": [
+		"JAVA",
+		"GAME"
+	],
+	"date": "December 2017",
+	"progress": 100
+}
 ]
