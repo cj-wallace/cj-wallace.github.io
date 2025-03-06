@@ -4,8 +4,8 @@
 	"image": "/assets/img/project/risktheodds.png",
 	"brief": "Full stack web-based game built in Flask.",
 	"desc": [
-		"This web app game build in Flask. It aims to be a fun web game that can be picked up and put down whenever!",
-		"The app is built as a full-stack web app so that there is integration with a server-side leaderboard that updates when users submit their high scores.",
+		"This web-based game is built in Python/Flask. It aims to be a simple risk game that can be picked up and put down whenever!",
+		"The app is built as a full-stack web app, there is integration with a server-side leaderboard that updates when users submit their high scores.",
 		"The tools used include Python, Flask, SQLite, Django, and Jinja."
 	],
 	"link": "https://github.com/cj-wallace/risktheodds",
